@@ -41,7 +41,7 @@ function Newsletter() {
 
               <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Sign up</button>
+                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Improve Your Community with 2 Clicks.</button>
                     </div>
                   </div>
 
