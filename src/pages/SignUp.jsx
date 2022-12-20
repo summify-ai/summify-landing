@@ -27,16 +27,28 @@ function SignUp() {
 							<div className='max-w-sm mx-auto'>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
+                                      
+<a href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot" target="_blank" rel="noreferrer">
+
 										<button className='btn text-white bg-indigo-600 hover:text-black w-full'>
 											Add to Discord
 										</button>
+                                        </a>
+
 									</div>
 								</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
+
+                                        
+
 										<button disabled className='btn text-white bg-cyan-600 w-full'>
 											Add to Telegram (Coming Soon)
+
+
 										</button>
+
+                                        
 									</div>
 								</div>
 								{/* <div className='flex items-center my-6'>
