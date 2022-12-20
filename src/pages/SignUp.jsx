@@ -18,7 +18,7 @@ function SignUp() {
 							{/* Page header */}
 							<div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
 								<h1 className='h1'>
-									Welcome. Please click the button below to
+									Please click the button below to
 									add Summify to your server.
 								</h1>
 							</div>
@@ -34,7 +34,7 @@ function SignUp() {
 								</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
-										<button className='btn text-white bg-cyan-600 hover:text-black w-full'>
+										<button disabled className='btn text-white bg-cyan-600 w-full'>
 											Add to Telegram (Coming Soon)
 										</button>
 									</div>
