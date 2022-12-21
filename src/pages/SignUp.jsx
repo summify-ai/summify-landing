@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 import Banner from '../partials/Banner';
+import Footer from '../partials/Footer';
 
 function SignUp() {
 	return (
@@ -18,8 +19,8 @@ function SignUp() {
 							{/* Page header */}
 							<div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
 								<h1 className='h1'>
-									Please click the button below to
-									add Summify to your server.
+									Please click the button below to add Summify
+									to your server.
 								</h1>
 							</div>
 
@@ -27,28 +28,25 @@ function SignUp() {
 							<div className='max-w-sm mx-auto'>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
-                                      
-<a href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot" target="_blank" rel="noreferrer">
-
-										<button className='btn text-white bg-indigo-600 hover:text-black w-full'>
-											Add to Discord
-										</button>
-                                        </a>
-
+										<a
+											href='https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot'
+											target='_blank'
+											rel='noreferrer'
+										>
+											<button className='btn text-white bg-indigo-600 hover:text-black w-full'>
+												Add to Discord
+											</button>
+										</a>
 									</div>
 								</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
-
-                                        
-
-										<button disabled className='btn text-white bg-cyan-600 w-full'>
+										<button
+											disabled
+											className='btn text-white bg-cyan-600 w-full'
+										>
 											Add to Telegram (Coming Soon)
-
-
 										</button>
-
-                                        
 									</div>
 								</div>
 								{/* <div className='flex items-center my-6'>
@@ -64,6 +62,7 @@ function SignUp() {
 			</main>
 
 			<Banner />
+			<Footer />
 		</div>
 	);
 }

@@ -61,7 +61,7 @@ function HeroHome() {
 								data-aos-delay='150'
 							>
 								Our AI-Powered bot summarizes unread messages
-								across Discord and Telegram channels. Never miss
+								across Discord and Telegram (Coming Soon) channels. Never miss
 								a key insight again.
 							</p>
 							<div
@@ -70,14 +70,15 @@ function HeroHome() {
 								data-aos-delay='300'
 							>
 								<div>
-                                    <Link to="/signup">
+                                    {/* <Link to="/signup"> */}
 									<a
 										className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
-										href='#0'
+										href='https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot'
+                                        target="_blank"
 									>
 										Add to your Server
 									</a>
-                                    </Link>
+                                    {/* </Link> */}
 								</div>
 								<div>
 									<a
