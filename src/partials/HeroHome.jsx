@@ -232,7 +232,7 @@ function HeroHome() {
 									<path d='M10 17l6-5-6-5z' />
 								</svg>
 								<span className='ml-3'>
-									Demo Video (30 sec)
+									Demo Video (60 sec)
 								</span>
 
 								
