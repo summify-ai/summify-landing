@@ -28,7 +28,11 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+<<<<<<< HEAD
             <h2 className="h2 mb-4">Used by 5+ Servers</h2>
+=======
+            <h2 className="h2 mb-4">Used by 10+ Companies</h2>
+>>>>>>> 266042d (first)
             {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">These communities have implemented Summify into their servers to 5X engagement.</p> */}
           </div>
 
@@ -85,11 +89,19 @@ function Testimonials() {
                   <img className="relative rounded-full" src={TestimonialImage} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
+<<<<<<< HEAD
                   "Summify has increased our server's activity by 300%, and has boosted retention by 50%."
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Dr. ETH</cite>
                 <div className="text-gray-600">
                   <span>Server Owner</span> <a className="text-blue-600 hover:underline" href="#0"></a>
+=======
+                  improved our retention by 15% and our conversion by 10%.
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Dr. Joe</cite>
+                <div className="text-gray-600">
+                  <span> Owner</span> <a className="text-blue-600 hover:underline" href="#0"></a>
+>>>>>>> 266042d (first)
                 </div>
               </div>
 

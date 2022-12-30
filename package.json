@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "summify-landing",
   "version": "0.1.0",
   "scripts": {
     "start": "npx http-server -P http://0.0.0.0:${PORT} ./dist",
+=======
+  "name": "simple-light-react",
+  "version": "0.1.0",
+  "scripts": {
+>>>>>>> 266042d (first)
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
+<<<<<<< HEAD
 import Transition from '../utils/Transition';
+=======
+import Transition from './Transition';
+>>>>>>> 266042d (first)
 
 function Modal({
   children,

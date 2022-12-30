@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+import {Link} from 'react-router-dom';
+>>>>>>> 266042d (first)
 
 function Newsletter() {
 	return (
@@ -112,6 +116,7 @@ function Newsletter() {
 
 							<div className='flex flex-wrap -mx-3 mt-6'>
 								<div className='w-full px-3'>
+<<<<<<< HEAD
                                     <p className="padding:100 text-white">Boost Your Community with 2 Clicks.</p>
 									<a
 										href='https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot'
@@ -120,6 +125,13 @@ function Newsletter() {
 									>
 										Add Now
 									</a>
+=======
+									<Link to='/signup'>
+										<button className='btn text-white bg-blue-600 hover:bg-blue-700 w-full'>
+											Improve your business now and sign up
+										</button>
+									</Link>
+>>>>>>> 266042d (first)
 								</div>
 							</div>
 						</div>

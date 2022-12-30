@@ -24,11 +24,19 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
+<<<<<<< HEAD
             <Link to="/" className="block" aria-label="Cruip">
               <img
                 className="h-12 w-auto"
                 src="https://i.imgur.com/ovq9zDG.png"
                 alt="Summify AI Logo"
+=======
+            <Link to="/" className="block" aria-label="">
+              <img
+                className="h-8 md:h-10"
+                src="https://i.imgur.com/lpPrluJ.png"
+                alt=""
+>>>>>>> 266042d (first)
               />
             </Link>
           </div>
@@ -37,12 +45,20 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
+<<<<<<< HEAD
                 <a
                   href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                   target="_blank"
                 >
                   <span>Add to your Server</span>
+=======
+                <Link
+                  to="/signup"
+                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                >
+                  <span>Sign Up</span>
+>>>>>>> 266042d (first)
                   <svg
                     className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1"
                     viewBox="0 0 12 12"
@@ -53,7 +69,11 @@ function Header() {
                       fillRule="nonzero"
                     />
                   </svg>
+<<<<<<< HEAD
                 </a>
+=======
+                </Link>
+>>>>>>> 266042d (first)
               </li>
             </ul>
           </nav>

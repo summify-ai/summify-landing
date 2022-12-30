@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 import Banner from '../partials/Banner';
+<<<<<<< HEAD
 import Footer from '../partials/Footer';
+=======
+>>>>>>> 266042d (first)
 
 function SignUp() {
 	return (
@@ -19,8 +22,12 @@ function SignUp() {
 							{/* Page header */}
 							<div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
 								<h1 className='h1'>
+<<<<<<< HEAD
 									Please click the button below to add Summify
 									to your server.
+=======
+									Lander
+>>>>>>> 266042d (first)
 								</h1>
 							</div>
 
@@ -28,6 +35,7 @@ function SignUp() {
 							<div className='max-w-sm mx-auto'>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
+<<<<<<< HEAD
 										<a
 											href='https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot'
 											target='_blank'
@@ -37,16 +45,39 @@ function SignUp() {
 												Add to Discord
 											</button>
 										</a>
+=======
+                                      
+<a href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot" target="_blank" rel="noreferrer">
+
+										<button className='btn text-white bg-indigo-600 hover:text-black w-full'>
+											Add to Discord
+										</button>
+                                        </a>
+
+>>>>>>> 266042d (first)
 									</div>
 								</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
+<<<<<<< HEAD
 										<button
 											disabled
 											className='btn text-white bg-cyan-600 w-full'
 										>
 											Add to Telegram (Coming Soon)
 										</button>
+=======
+
+                                        
+
+										<button disabled className='btn text-white bg-cyan-600 w-full'>
+											Add to Telegram (Coming Soon)
+
+
+										</button>
+
+                                        
+>>>>>>> 266042d (first)
 									</div>
 								</div>
 								{/* <div className='flex items-center my-6'>
@@ -62,7 +93,10 @@ function SignUp() {
 			</main>
 
 			<Banner />
+<<<<<<< HEAD
 			<Footer />
+=======
+>>>>>>> 266042d (first)
 		</div>
 	);
 }

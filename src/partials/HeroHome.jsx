@@ -61,7 +61,11 @@ function HeroHome() {
 								data-aos-delay='150'
 							>
 								Our AI-Powered bot summarizes unread messages
+<<<<<<< HEAD
 								across Discord and Telegram (Coming Soon) channels. Never miss
+=======
+								across Discord and Telegram channels. Never miss
+>>>>>>> 266042d (first)
 								a key insight again.
 							</p>
 							<div
@@ -70,6 +74,7 @@ function HeroHome() {
 								data-aos-delay='300'
 							>
 								<div>
+<<<<<<< HEAD
                                     {/* <Link to="/signup"> */}
 									<a
 										className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
@@ -79,6 +84,16 @@ function HeroHome() {
 										Add to your Server
 									</a>
                                     {/* </Link> */}
+=======
+                                    <Link to="/signup">
+									<a
+										className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
+										href='#0'
+									>
+										 Sign Up
+									</a>
+                                    </Link>
+>>>>>>> 266042d (first)
 								</div>
 								<div>
 									<a
@@ -232,14 +247,21 @@ function HeroHome() {
 									<path d='M10 17l6-5-6-5z' />
 								</svg>
 								<span className='ml-3'>
+<<<<<<< HEAD
 									Demo Video (60 sec)
+=======
+									Demo Video (30 sec)
+>>>>>>> 266042d (first)
 								</span>
 
 								
 							</button>
 						</div>
 
+<<<<<<< HEAD
 						{/* <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/783081720?h=4e44df6af2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Summify-Demo-Video.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
+=======
+>>>>>>> 266042d (first)
 
 						{/* Modal */}
 						<Modal
@@ -251,7 +273,11 @@ function HeroHome() {
 							<div className='relative pb-9/16'>
 								<iframe
 									className='absolute w-full h-full'
+<<<<<<< HEAD
 									src='https://player.vimeo.com/video/784370069'
+=======
+									
+>>>>>>> 266042d (first)
 									title='Video'
 									allowFullScreen
 								></iframe>

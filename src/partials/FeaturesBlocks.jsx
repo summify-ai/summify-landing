@@ -13,8 +13,13 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+<<<<<<< HEAD
             <h2 className="h2 mb-4">How Summify works</h2>
             <p className="text-xl text-gray-600">Summify extracts key insights from the noise of your Discord and Telegram channels in under 30 seconds. Here's how: </p>
+=======
+            <h2 className="h2 mb-4">How it works</h2>
+            <p className="text-xl text-gray-600">here's how: </p>
+>>>>>>> 266042d (first)
           </div>
 
           {/* Items */}
@@ -33,8 +38,13 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+<<<<<<< HEAD
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Capture Unread Chats</h4>
               <p className="text-gray-600 text-center">The bot captures all unread messages in the specified channel.</p>
+=======
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lorem impsum</h4>
+              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+>>>>>>> 266042d (first)
             </div>
 
             {/* 2nd item */}
@@ -49,8 +59,13 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+<<<<<<< HEAD
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">AI NLP Summarization</h4>
               <p className="text-gray-600 text-center">The messages are passed through our model to extract signal from noise.</p>
+=======
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lorem impsum</h4>
+              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+>>>>>>> 266042d (first)
             </div>
 
             {/* 3rd item */}
@@ -64,8 +79,13 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+<<<<<<< HEAD
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Direct Message</h4>
               <p className="text-gray-600 text-center">Key insights and a list of URLs are delivered straight to your inbox.</p>
+=======
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lorem impsum</h4>
+              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+>>>>>>> 266042d (first)
             </div>
 
             {/* 4th item */}
