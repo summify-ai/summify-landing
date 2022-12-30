@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../images/logo.png';
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -15,36 +16,42 @@ function Header() {
 
   return (
     <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-        !top && "bg-white backdrop-blur-sm shadow-lg"
-      }`}
+      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && "bg-white backdrop-blur-sm shadow-lg"
+        }`}
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Site branding */}
-          <div className="flex-shrink-0 mr-4">
-            {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+        <div className="flex items-center justify-center gap-5 py-3">
+          <div className="sm:flex-1 ">
+            <Link to="/" className="flex items-center gap-1" aria-label="">
               <img
-                className="h-12 w-auto"
-                src="https://i.imgur.com/ovq9zDG.png"
-                alt="Summify AI Logo"
+                className="h-12 md:h-14"
+                src={Logo}
+                alt=""
               />
+              <span className="font-extrabold tracking-wide text-gray-900 text-3xl sm:block hidden">Lander</span>
             </Link>
           </div>
 
-          {/* Site navigation */}
-          <nav className="flex flex-grow">
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+          <div className="flex-1 flex items-center md:gap-12 sm:gap-8 gap-4 justify-center ">
+            <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
+              About
+            </Link>
+            <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150 ">
+              Pricing
+            </Link>
+          </div>
+
+          <nav className="flex sm:flex-1 ">
+            <ul className="flex flex-grow justify-end  gap-8 flex-wrap items-center">
               <li>
-                <a
-                  href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
-                  target="_blank"
+
+                <Link
+                  to="/signup"
+                  className="btn-sm sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark ml-3 shrink-0"
                 >
-                  <span>Add to your Server</span>
+                  <span>Sign Up</span>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1"
+                    className="w-3 h-3 fill-current text-gray-100 flex-shrink-0 ml-2 -mr-1"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -53,7 +60,9 @@ function Header() {
                       fillRule="nonzero"
                     />
                   </svg>
-                </a>
+                </Link >
+
+
               </li>
             </ul>
           </nav>

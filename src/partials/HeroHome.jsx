@@ -42,26 +42,26 @@ function HeroHome() {
 
 			<div className='max-w-6xl mx-auto px-4 sm:px-6'>
 				{/* Hero content */}
-				<div className='pt-32 pb-12 md:pt-40 md:pb-20'>
+				<div className='pt-32 md:pt-40'>
 					{/* Section header */}
 					<div className='text-center pb-12 md:pb-16'>
 						<h1
-							className='text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4'
-							data-aos='zoom-y-out'
+							className='text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 max-w-4xl mx-auto'
+							
 						>
 							Increase your community's engagement by{' '}
-							<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
+							<span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-900'>
 								5X
 							</span>
 						</h1>
-						<div className='max-w-3xl mx-auto'>
+						<div className='max-w-2xl mx-auto'>
 							<p
-								className='text-xl text-gray-600 mb-8'
+								className='text-lg text-gray-600 mb-8'
 								data-aos='zoom-y-out'
 								data-aos-delay='150'
 							>
 								Our AI-Powered bot summarizes unread messages
-								across Discord and Telegram (Coming Soon) channels. Never miss
+								across Discord and Telegram channels. Never miss
 								a key insight again.
 							</p>
 							<div
@@ -70,15 +70,14 @@ function HeroHome() {
 								data-aos-delay='300'
 							>
 								<div>
-                                    {/* <Link to="/signup"> */}
+                                    <Link to="/signup">
 									<a
-										className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
-										href='https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot'
-                                        target="_blank"
+										className='btn text-white bg-primary hover:bg-primary-dark w-full mb-4 sm:w-auto sm:mb-0'
+										href='#0'
 									>
-										Add to your Server
+										 Sign Up
 									</a>
-                                    {/* </Link> */}
+                                    </Link>
 								</div>
 								<div>
 									<a
@@ -109,7 +108,7 @@ function HeroHome() {
 									alt='Hero'
 								/>
 								<svg
-									className='absolute inset-0 max-w-full mx-auto md:max-w-none h-auto'
+									className='absolute inset-0 max-w-full mx-auto md:max-w-none h-auto '
 									width='768'
 									height='432'
 									viewBox='0 0 768 432'
@@ -232,14 +231,13 @@ function HeroHome() {
 									<path d='M10 17l6-5-6-5z' />
 								</svg>
 								<span className='ml-3'>
-									Demo Video (60 sec)
+									Demo Video (30 sec)
 								</span>
 
 								
 							</button>
 						</div>
 
-						{/* <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/783081720?h=4e44df6af2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Summify-Demo-Video.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> */}
 
 						{/* Modal */}
 						<Modal
@@ -251,7 +249,7 @@ function HeroHome() {
 							<div className='relative pb-9/16'>
 								<iframe
 									className='absolute w-full h-full'
-									src='https://player.vimeo.com/video/784370069'
+									
 									title='Video'
 									allowFullScreen
 								></iframe>

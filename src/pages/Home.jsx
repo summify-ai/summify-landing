@@ -8,26 +8,23 @@ import Testimonials from "../partials/Testimonials";
 import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
 import Banner from "../partials/Banner";
+import Problems from "../partials/Problems";
+import CTA from "../partials/cta";
+import Navbar from "../partials/navbar";
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
-      <Header />
-
-      {/*  Page content */}
+      <Navbar />
+      {/* <Header /> */}
       <main className="flex-grow">
-        {/*  Page sections */}
         <HeroHome />
-        {/* <FeaturesHome /> */}
+        <Problems />
         <FeaturesBlocks />
         <Testimonials />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
-
-      {/* <Banner /> */}
-
-      {/*  Site footer */}
+      <CTA />
       <Footer />
     </div>
   );
