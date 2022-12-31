@@ -6,10 +6,10 @@ export default function CTA() {
       <div className="mx-auto max-w-4xl py-12 px-4 text-center md:py-20 sm:py-16 sm:px-6 lg:px-8 flex flex-col items-center gap-4">
         
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          <span className="block">Ready to create better products?</span>
+          <span className="block">Ready to Boost Your Community?</span>
         </h2>
         <p className="text-lg leading-8 text-gray-600">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.
+            Start your free 5-day trial today.
         </p>
         <a href="#" className="inline-flex items-center justify-center btn text-white bg-primary hover:bg-primary-dark w-full mt-3 mb-4 sm:w-auto">
           Start free trial
@@ -19,7 +19,7 @@ export default function CTA() {
           <div className="flex items-center gap-2">
             <CheckIcon className="w-5 text-green-600" aria-hidden="true" />
             <p className="text-gray-600 text-base font-medium">
-              Free 14-day trial
+              Free 5-day trial
             </p>
           </div>
 

@@ -61,7 +61,7 @@ export default function Navbar() {
                                 to="/signup"
                                 className="btn-sm ml-8 sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark shrink-0"
                             >
-                                <span>Sign Up</span>
+                                <span>Add to Your Server</span>
                                 <svg
                                     className="w-3 h-3 fill-current text-gray-100 flex-shrink-0 ml-2 -mr-1"
                                     viewBox="0 0 12 12"
