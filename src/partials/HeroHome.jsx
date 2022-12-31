@@ -75,7 +75,7 @@ function HeroHome() {
 										className='btn text-white bg-primary hover:bg-primary-dark w-full mb-4 sm:w-auto sm:mb-0'
 										href='#0'
 									>
-										 Sign Up
+										 Add to Your Server
 									</a>
                                     </Link>
 								</div>
@@ -107,7 +107,7 @@ function HeroHome() {
 									height='432'
 									alt='Hero'
 								/>
-								<svg
+								{/* <svg
 									className='absolute inset-0 max-w-full mx-auto md:max-w-none h-auto '
 									width='768'
 									height='432'
@@ -211,7 +211,7 @@ function HeroHome() {
 											/>
 										</g>
 									</g>
-								</svg>
+								</svg> */}
 							</div>
 							<button
 								className='absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg'
@@ -231,7 +231,7 @@ function HeroHome() {
 									<path d='M10 17l6-5-6-5z' />
 								</svg>
 								<span className='ml-3'>
-									Demo Video (30 sec)
+									Demo Video (60 sec)
 								</span>
 
 								

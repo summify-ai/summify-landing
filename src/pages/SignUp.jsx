@@ -27,7 +27,7 @@ function SignUp() {
 										className="h-14"
 										src={Logo}
 										alt=""
-									/> Lander
+									/> Summify
 								</h1>
 							</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>

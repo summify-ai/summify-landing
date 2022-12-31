@@ -38,7 +38,7 @@ export default function Navbar() {
                                     src={Logo}
                                     alt=""
                                 />
-                                <span className="font-extrabold tracking-wide text-gray-900 text-3xl">Lander</span>
+                                <span className="font-extrabold tracking-wide text-gray-900 text-3xl">Summify</span>
                             </Link>
                         </div>
                         <div className="-my-2 -mr-2 md:hidden">
@@ -61,7 +61,7 @@ export default function Navbar() {
                                 to="/signup"
                                 className="btn-sm ml-8 sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark shrink-0"
                             >
-                                <span>Sign Up</span>
+                                <span>Add to Your Server</span>
                                 <svg
                                     className="w-3 h-3 fill-current text-gray-100 flex-shrink-0 ml-2 -mr-1"
                                     viewBox="0 0 12 12"
@@ -98,7 +98,7 @@ export default function Navbar() {
                                                 src={Logo}
                                                 alt=""
                                             />
-                                            <span className="font-extrabold tracking-wide text-gray-900 text-3xl">Lander</span>
+                                            <span className="font-extrabold tracking-wide text-gray-900 text-3xl">Summify</span>
                                         </Link>
                                         <div className="-mr-2">
                                             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -129,7 +129,7 @@ export default function Navbar() {
                                         to="/signup"
                                         className="btn-sm sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark shrink-0 w-full"
                                     >
-                                        <span>Sign Up</span>
+                                        <span>Add to Your Server</span>
                                         <svg
                                             className="w-3 h-3 fill-current text-gray-100 flex-shrink-0 ml-2 -mr-1"
                                             viewBox="0 0 12 12"

@@ -19,7 +19,7 @@ function Home() {
       {/* <Header /> */}
       <main className="flex-grow">
         <HeroHome />
-        <Problems />
+        {/* <Problems /> */}
         <FeaturesBlocks />
         <Testimonials />
         {/* <Newsletter /> */}
