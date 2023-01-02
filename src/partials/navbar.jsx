@@ -48,9 +48,12 @@ export default function Navbar() {
                             </Popover.Button>
                         </div>
                         <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-                            <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
+                            <a href="#2" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
                                 About
-                            </Link>
+                            </a>
+                            <a href="#3" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
+                                Testimonials
+                            </a>
                             <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150 ">
                                 Pricing
                             </Link>
@@ -111,15 +114,15 @@ export default function Navbar() {
                                         <nav className="grid grid-cols-1 gap-7">
 
 
-                                            <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
+                                            {/* <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
                                                 <div className="ml-4 text-base font-medium text-gray-900">Pricing</div>
-                                            </Link>
-                                            <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
+                                            </Link> */}
+                                            <Link to="/" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
                                                 <div className="ml-4 text-base font-medium text-gray-900">About</div>
                                             </Link>
-                                            <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
+                                            {/* <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
                                                 <div className="ml-4 text-base font-medium text-gray-900">Contact</div>
-                                            </Link>
+                                            </Link> */}
 
                                         </nav>
                                     </div>

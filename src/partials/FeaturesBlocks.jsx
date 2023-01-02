@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturesBlocks() {
 	return (
-		<section className='relative'>
+		<section id="2" className='relative'>
 			{/* Section background (needs .relative class on parent and next sibling elements) */}
 			<div
 				className='absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none'
@@ -14,9 +14,9 @@ function FeaturesBlocks() {
 				<div className='py-12 md:py-20'>
 					{/* Section header */}
 					<div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
-						<h2 className='h2 mb-4'>How Summify works</h2>
+						<h2  className='h2 mb-4'>How Summify works</h2>
 						<p className='text-xl text-gray-600'>
-							Summify extracts key insights from the noise of your
+							Summify allows your members to extract key insights from the noise of your
 							Discord and Telegram channels in under 30 seconds.
 							Here's how:{' '}
 						</p>
