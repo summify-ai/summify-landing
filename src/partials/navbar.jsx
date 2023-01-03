@@ -144,20 +144,19 @@ export default function Navbar() {
 									</div>
 									<div className='mt-6'>
 										<nav className='grid grid-cols-1 gap-7'>
-											{/* <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
-                                                <div className="ml-4 text-base font-medium text-gray-900">Pricing</div>
-                                            </Link> */}
-											<Link
-												to='/'
+											<HashLink to = '/#2'
 												className='-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50'
 											>
 												<div className='ml-4 text-base font-medium text-gray-900'>
 													About
 												</div>
-											</Link>
-											{/* <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
-                                                <div className="ml-4 text-base font-medium text-gray-900">Contact</div>
-                                            </Link> */}
+											</HashLink>
+											<HashLink to="/#3" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
+                                                <div className="ml-4 text-base font-medium text-gray-900">Testimonials</div>
+                                            </HashLink>
+											<Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
+                                                <div className="ml-4 text-base font-medium text-gray-900">Pricing</div>
+                                            </Link>
 										</nav>
 									</div>
 								</div>

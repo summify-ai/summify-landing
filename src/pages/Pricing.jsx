@@ -99,7 +99,7 @@ export default function Pricing() {
             <div className="bg-white">
                 <div className="mx-auto max-w-6xl xl:pt-40 lg:pt-36 sm:pt-32 pt-24 px-4 sm:px-6 lg:px-8">
                     <div className="sm:align-center sm:flex sm:flex-col">
-                        <h1 className="sm:text-5xl text-4xl font-bold tracking-tight text-gray-900 sm:text-center leading-snug" data-aos='zoom-y-in'
+                        <h1 className="sm:text-4xl text-4xl font-bold tracking-tight text-gray-900 sm:text-center leading-snug" data-aos='zoom-y-in'
                             data-aos-delay='150'>Summify Pricing - Integrate first, then choose.</h1>
                         <p className="mt-4 text-xl text-gray-600 sm:text-center" data-aos='zoom-y-out'
                             data-aos-delay='150'>
