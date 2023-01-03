@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function CTA() {
   return (
-    <div className="bg-transparent" data-aos='zoom-y-out' data-aos-delay='200'>
+    <div className="bg-transparent" data-aos='zoom-y-out' data-aos-delay='150'>
       <div className="mx-auto max-w-4xl py-12 px-4 text-center md:py-20 sm:py-16 sm:px-6 lg:px-8 flex flex-col items-center gap-4">
         
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
