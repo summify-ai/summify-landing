@@ -32,7 +32,7 @@ function SignUp() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="btn text-white bg-primary hover:bg-primary-dark w-full">
+                      <button className="btn text-white bg-primary hover:bg-primary-dark w-full umami--click--add-to-discord-button">
                         Add to Discord
                       </button>
                     </a>
