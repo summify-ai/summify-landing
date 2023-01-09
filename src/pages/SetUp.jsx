@@ -22,48 +22,67 @@ function SetUp() {
 					<div className='max-w-6xl mx-auto px-4 sm:px-6 '>
 						<div className='flex items-center min-h-screen'>
 							{/* Page header */}
-                            
 
 							{/* Form */}
 							<div className='max-w-xxl  mx-auto border-gray-300 rounded-lg'>
-                            <h1 className='h2 flex items-center justify-center' styles={{
-                                paddingTop: '500px',
-                            }}>
-										How to Integrate Summify Into Your
-										Discord Server
-									</h1>
-								<div className='pb-6'>
-									
-								</div>
+								<h1
+									className='h2 flex items-center justify-center'
+									styles={{
+										paddingTop: '500px',
+									}}
+								>
+									How to Integrate Summify Into Your Discord
+									Server
+								</h1>
+								<div className='pb-6'></div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3 text-center'>
 										First, click the{' '}
 										<strong>Add to Your Server </strong>
-										 button from the homepage or navigation
+										button from the homepage or navigation
 										bar.
-										<img className="mx-auto md:w-100" src={Setup4} alt='' />
+										<img
+											className='mx-auto md:w-100'
+											src={Setup4}
+											alt=''
+										/>
 									</div>
 									<div className='w-full px-3 text-center mt-8 mb-8'>
 										Next, choose the{' '}
-										<strong>Add to Discord</strong>{' '}
-										button in our Next menu.
-										<img className="mx-auto w-96" src={Setup3} alt='' />
+										<strong>Add to Discord</strong> button
+										in our Next menu.
+										<img
+											className='mx-auto w-96'
+											src={Setup3}
+											alt=''
+										/>
 									</div>
 									<div className='w-full px-3 text-center mt-6 mb-6'>
 										Then, select your server from the
 										Discord dropdown menu, and hit{' '}
 										<strong>Continue</strong>.
-										<img className="mx-auto md:w-1/2 lg:m:1/4" src={Setup1} alt='' />
+										<img
+											className='mx-auto md:w-1/2 lg:m:1/4'
+											src={Setup1}
+											alt=''
+										/>
 									</div>
 									<div className='w-full px-3 text-center mt-6 mb-6'>
-										<p>Finally, hit the{' '}
-										<strong>Authorize</strong> button with
-										the checked permissions. Do not change
-										any of these permissions—these are
-										required to be on in order for Summify
-										to function correctly.</p>
-                                        
-										<img className="mx-auto w-1/2" src={Setup2} alt='' />
+										<p>
+											Finally, hit the{' '}
+											<strong>Authorize</strong> button
+											with the checked permissions. Do not
+											change any of these
+											permissions—these are required to be
+											on in order for Summify to function
+											correctly.
+										</p>
+
+										<img
+											className='mx-auto w-1/2'
+											src={Setup2}
+											alt=''
+										/>
 									</div>
 									<div className='w-full px-3 text-center mt-6 mb-6'>
 										<strong>

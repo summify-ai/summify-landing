@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Summify AI</title>
-  </head>
-  <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script>
-      if (localStorage.getItem("sidebar-expanded") == "true") {
-        document.querySelector("body").classList.add("sidebar-expanded");
-      } else {
-        document.querySelector("body").classList.remove("sidebar-expanded");
-      }
-    </script>
-    <script
-      async
-      defer
-      data-website-id="21a3ce95-c534-4e91-9a37-1de90f1e271e"
-      src="https://umami-production-d55c.up.railway.app/umami.js"
-    ></script>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/src/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="Summify" />
+		<meta
+			property="og:url"
+			content="https://summify.ai"
+		/>
+		<meta
+			property="og:image"
+			content="images/logo.png"
+		/>
+		<title>Summify AI</title>
+	</head>
+	<body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<script>
+			if (localStorage.getItem('sidebar-expanded') == 'true') {
+				document
+					.querySelector('body')
+					.classList.add('sidebar-expanded');
+			} else {
+				document
+					.querySelector('body')
+					.classList.remove('sidebar-expanded');
+			}
+		</script>
+		<script
+			async
+			defer
+			data-website-id="21a3ce95-c534-4e91-9a37-1de90f1e271e"
+			src="https://umami-production-d55c.up.railway.app/umami.js"
+		></script>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
 </html>
