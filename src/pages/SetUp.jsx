@@ -26,7 +26,7 @@ function SetUp() {
 							{/* Form */}
 							<div className='max-w-xxl  mx-auto border-gray-300 rounded-lg'>
 								<h1
-									className='h2 flex items-center justify-center'
+									className='h2 flex items-center justify-center mt-28 '
 									styles={{
 										paddingTop: '500px',
 									}}
@@ -36,7 +36,7 @@ function SetUp() {
 								</h1>
 								<div className='pb-6'></div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
-									<div className='w-full px-3 text-center'>
+									<div className='w-full px-3 text-center text-lg'>
 										First, click the{' '}
 										<strong>Add to Your Server </strong>
 										button from the homepage or navigation
@@ -47,7 +47,7 @@ function SetUp() {
 											alt=''
 										/>
 									</div>
-									<div className='w-full px-3 text-center mt-8 mb-8'>
+									<div className='w-full px-3 text-center mt-1 mb-1 text-lg'>
 										Next, choose the{' '}
 										<strong>Add to Discord</strong> button
 										in our Next menu.
@@ -57,17 +57,17 @@ function SetUp() {
 											alt=''
 										/>
 									</div>
-									<div className='w-full px-3 text-center mt-6 mb-6'>
+									<div className='w-full px-3 text-center mt-6 mb-6 text-lg'>
 										Then, select your server from the
 										Discord dropdown menu, and hit{' '}
 										<strong>Continue</strong>.
 										<img
-											className='mx-auto md:w-1/2 lg:m:1/4'
+											className='mx-auto xs: w-48 sm:w-40 md:w-30 lg:w-40 mt-4'
 											src={Setup1}
 											alt=''
 										/>
 									</div>
-									<div className='w-full px-3 text-center mt-6 mb-6'>
+									<div className='w-full px-3 text-center mt-4 mb-4 text-lg mr-36 ml-36'>
 										<p>
 											Finally, hit the{' '}
 											<strong>Authorize</strong> button
@@ -79,12 +79,12 @@ function SetUp() {
 										</p>
 
 										<img
-											className='mx-auto w-1/2'
+											className='mx-auto xs: w-48 sm:w-40 md:w-30 lg:w-40 mt-4'
 											src={Setup2}
 											alt=''
 										/>
 									</div>
-									<div className='w-full px-3 text-center mt-6 mb-6'>
+									<div className='w-full px-3 text-center mt-4 mb-6 text-lg'>
 										<strong>
 											That's it! You're ready to use
 											Summify within your server.
